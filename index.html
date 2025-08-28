@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <details class="accordion-nav">
+                <summary class="nav-link">Menú</summary>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./yo.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Javier Vega</h1>
+            <p class="profile-summary">
+                Javier Vega es un estudiante que está cursando bachillerato en una institución pública, también suele participar en en actividades sociopolíticas juveniles para el desarrollo de los jóvenes en barrancabermeja. Javier Vega tiene pasiones y un gran talento le gusta cantar estar con sus amigos compartir con sus familiares y amar a su novia
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:jabierorlan08@gmail.com">jabierorlan08@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+57" target="_blank" rel="noopener noreferrer">+57 3222139888</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios </h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Bachillerato | CASD J.P.P </h4>
+                    <p>Bachiller academico | Año de Finalización: 2025</p>
+                    <P>Descripción: Formación integral con énfasis en salud, humanidades y áreas técnicas, desarrollando competencias en matemáticas, comunicación, investigación y trabajo en equipo..</P>
+                </li>
+                <li>
+                    <h4>Primaria | Escuela Normal Superior Cristo Rey</h4>
+                    <p>Primaria basica | Año de Finalización: 2019</p>
+                    <p>Descripción: Estudios básicos de primaria, adquiriendo habilidades fundamentales en lectura, escritura, matemáticas, convivencia escolar y valores ciudadanos..</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Pintor de vias | Cristopetrolero</h4>
+                    <p>Diciembre 2024 <br>Descripción:Hice un trabajo para la administración distrital donde pintaba el asfalto de las calles del Cristo petrolero trabajando 8 horas o más al día.</p>
+                </li>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Canto</li>
+                    <li>Pasion por el trabajo</li>
+                    <li>Respeto</li>
+                    <li>Control de mis emociones </li>
+                    <li>Facilidad de argumentar en una discusion</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en Equipo</li>
+                    <li>Desordenado</li>
+                    <li>Paciencia</li>
+                    <li>Recochero</li>
+                    <li>Problemas de entendimiento</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./yo.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.tiktok.com/@javierorlandoveg0?_t=ZS-8zEwz5m2GsZ&_r=1"_blank" class="linktree-link"><strong>Tiktok</strong></a>
+            <a href="https://www.instagram.com/jvega__69_?igsh=dml1aWo2NjFnMmhj" target="_blank" class="linktree-link"><strong>Instagram</strong></a>
+            <a href="https://www.facebook.com/share/1GCARttZ5F/" target="_blank" class="linktree-link"><strong>Facebook</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Elias Vance <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
